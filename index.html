@@ -21,11 +21,31 @@
                 <div class="row">
                 <div class="col-sm-8 py-4">
                     <h4 class="text-white">Sobre el demo</h4>
-                    <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+                    <p class="text-muted">
+                        El análisis de sentimientos extrae caracteristicas de la expresión facial de la imagen y devuelve la
+                        probabilidad de las siguientes 8 emociones: Ira, disgusto, miedo, felicidad, neutralidad, tristeza y sorpresa.
+                    </p>
                 </div>
                 <div class="col-sm-4 py-4">
                     <h4 class="text-white">¿Cómo interpretar los sentimientos</h4>
-                    <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+                    
+                    <p class="text-muted">
+                        En este ejemplo, el análisis de sentimientos nos dice que es más probable que la persona este feliz.
+                        <ul>
+                            <li class="text-muted">"anger": 1.0570484E-08</li>
+                            <li class="text-muted">"contempt": 1.52679547E-09,</li>
+                            <li class="text-muted">"disgust": 1.60232943E-07,</li>
+                            <li class="text-muted">"fear": 6.00660363E-12,</li>
+                            <li class="text-muted">"happiness": 0.9999998,</li>
+                            <li class="text-muted">"neutral": 9.449728E-09,</li>
+                            <li class="text-muted">"sadness": 1.23025981E-08,</li>
+                            <li class="text-muted">"surprise": 9.91396E-10</li>
+                        </ul>
+                    </p>
+                    <p class="text-muted">
+                        La gráfica de pastel representa la extracción de sentimiento de la foto tomada del vídeo, 
+                        mientras que la gráfica de tiempo muestra la evolución de los mismos por cada foto tomada.
+                    </p>
                 </div>
                 </div>
             </div>
@@ -35,18 +55,22 @@
                 <a href="#" class="navbar-brand">Empower Data</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-                </button>
+            </button>
             </div>
         </div>
             
         <section class="jumbotron text-center">
             <div class="container">
                 <h1 class="jumbotron-heading">Análisis de sentimientos en un chat room</h1>
-                <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
-                <p>
+                <p class="lead text-muted">
+                    Las personas que accedan a esta URL en automático se unirán a la vídeo llamada y aparecerán 
+                    en el orden como se conecten debajo de ti, para hacer un test del análisis de sentimientos da click en el boton Snap
+                    varias veces y observa los resultados en las gráficas.
+                </p>
+                <!-- <p>
                 <a href="#" class="btn btn-primary">Iniciar</a>
                 <a href="#" class="btn btn-secondary">Finalizar</a>
-                </p>
+                </p> -->
             </div>
         </section>
         <video id="localVideo" height="300" style=" max-width: 40%px; height: auto; margin: 0% 30% 0% 30%;" ></video>
